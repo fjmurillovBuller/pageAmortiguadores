@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #DCEDC8;
+    margin-top: 25px;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    background-image: url(img/mac-pherson1.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+.container {
+    width: 90%;
+    height: 90%;
+    background:#F0F4C3;
+    margin: 20px auto;
+    border-radius: 25px;
+}
+
+.header img {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.menu top{
+    float: left;
+    padding-top: 15px; 
+}
+.menu li {
+    display: inline-block;
+}
+.top {
+    margin-top: 60px;
+    padding-right: 15px;
+    text-align: center;
+}
+menu{
+    border-style: inherit;
+}
+
+.menu a {
+    color: #827717;
+    text-decoration: none;
+    padding: 25px; 
+    margin-left: 10px; 
+    border-radius: 15px;
+}
+
+.menu a:hover {
+    background: #fff;
+    border-radius: 15px;
+}
+
+.header img:hover{
+	-webkit-transition:1.5s;
+	-webkit-transform:rotate(360deg);
+}
+.col h2 {
+    color: #B52025;
+}
+.col { 
+    width:265px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding: 20px;
+}
+.row {
+    text-align: center;
+    padding-top: 15px; 
+}
+.marq,  .marq01 {
+    background: #E6EE9C;
+    color: #B52025;
+    border-radius: 50px;
+    margin: 5px auto;
+    padding-top: 10px;
+    box-shadow: rgb(150, 150, 150) 5px 5px 10px;
+    text-shadow: rgb(0, 0, 150) 3px 3px 5px;
+}
+
+.col01{
+            text-align: center;
+            color: #B52025;
+            font-family: Source Sans Pro;
+            font-size: 15px;
+            overflow: hidden;
+   }
+
+   form{
+    width: 600px;
+    margin:auto;
+    background: rgba(0,0,0,0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;    
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+.suspension{
+    margin: 10px auto; 
+    padding: 10px auto; 
+
+
+}
+
+.footer{
+    padding-bottom: 15px; 
+    text-align: center;
+    color:#B52025;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    overflow: hidden;
+    }
+
+.footer01 {
+    padding: 15px auto; 
+    text-align: center;
+    color: #B52025;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    overflow: hidden;
+    }
+
+@media (max-width: 500px, max-height: 400px ){
+            .container, .header, .menu, .col p, .row, .header img, img, .footer, .suspension, input, textarea, {
+                            width: 50%;
+            }
+            form{
+                width: 50%;
+            }
+}
